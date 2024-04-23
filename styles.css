@@ -1,0 +1,361 @@
+
+body {
+    background-color: lightpink;
+    color:white;
+    font-family: Arial, sans-serif,bold;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+.image {
+    display: grid;
+    place-items:left;
+    padding-left: 15ch;
+    display: flex;
+    align-items: center;
+  }
+    
+  
+  
+  .image img {
+    margin-right: 20px;
+    width: 30vw;
+    border-radius: 50%; /* Make the image round */
+    margin-right: 30px; /* Add some space between the image and paragraph */
+    overflow: hidden; 
+    border-style:inherit;
+    margin-bottom: 30ch;
+    margin-top: 7ch;
+    border-style: ridge;
+   border-color: palevioletred;
+  }
+  
+header {
+
+    color: black;
+    display: flex;
+    align-items: center; /* Vertically center the content */
+    background-color: palevioletred;
+    height: 100px;
+    width: 100%;
+    z-index: 100;
+    flex-direction: column;
+    justify-content: flex-end; 
+    position: fixed;
+    top: 0;
+   
+
+  
+    
+}
+
+
+.navbar a{
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease;
+    height: 20px;
+    font-size: 2.5ch;
+    margin-right: 20px;
+    
+   
+}
+
+.navbar a:hover,
+.navbar a.active{
+ color: bisque;
+ border-bottom: 3px solid;
+ word-spacing: 5px;
+}
+
+
+
+.my-name
+{
+    color: wheat;
+    text-align: center;
+    width: 100%;
+    font-size: 4ch;
+
+}
+
+
+
+main {
+
+    padding-top: 100px;
+    color: black;
+   padding-right: 20px;
+   padding-left: 20px;
+   
+  
+
+}
+
+footer {
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 3ch;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.heading{
+   
+
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 5ch;
+    
+}
+
+.my-info { 
+    justify-content: center;
+         padding-right: 20ch;
+         font-size: 3ch;
+         font-family: sans-serif;
+         
+}
+
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: aliceblue;
+}
+::-webkit-scrollbar-track{
+    background-color: peru;
+    width: 50px;
+}
+
+.contact h2{
+    
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    font-size:5ch;
+}
+
+.contact form{
+    max-width: 40em;
+    margin: 1rem auto;
+    margin-left: 2cap;
+    margin-bottom: 3rem;
+}
+.contact form .input-box {
+    display: flex;
+   
+    flex-wrap: wrap;
+}
+
+.contact form .input-box input,
+.contact form textarea{
+    width:100%;
+    padding: 1rem;
+    font-size:15px;
+    color:black;
+    background-color: white;
+    border-radius: .8rem;
+    margin:1rem 0;
+    resize:none;
+    
+}
+
+.btn
+{
+    border-radius: 1rem;
+    background-color: palevioletred;
+    color: aliceblue;
+    font-size: 2.5ch;
+    width: 30%;
+    justify-content: center;
+
+    
+}
+
+.intro
+{ 
+    color:cornsilk;
+   
+    font-family: sans-serif;
+    font-weight: 800;
+    animation: forwards 2s steps(18);
+    font-size: 4rem;
+    line-height: 1;
+    margin-top: 0ch;
+  
+  margin-bottom: 1rem;
+   
+}
+.sejal
+{
+    color:palevioletred;
+}
+
+.wd{
+    color:palevioletred;
+    
+}
+
+
+
+
+.section-box {
+    
+    border: 2px solid white; /* Border style */
+    padding: 20px; /* Padding inside the box */
+    margin-bottom: 20px; /* Space between sections */
+    border-radius: 10px;
+   
+}
+.section-box h2{
+    
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    font-size:5ch;
+}
+.contact
+{
+    border: 2px solid white; /* Border style */
+    padding: 20px; /* Padding inside the box */
+    margin-bottom: 20px; /* Space between sections */
+    border-radius: 10px;
+    
+    
+}
+
+.proj
+{
+    justify-content: center;
+    padding-right: 20ch;
+    font-size: 3ch;
+    font-family: sans-serif;
+}
+
+.ul {
+    justify-content: center;
+    padding-right: 20ch;
+    font-size: 3ch;
+    font-family: sans-serif;
+}
+
+.techsklp
+{
+    justify-content: center;
+    padding-right: 20ch;
+    font-size: 3ch;
+    font-family: sans-serif;
+    
+}
+.softsklp
+{
+    justify-content: center;
+         padding-right: 20ch;
+         font-size: 3ch;
+         font-family: sans-serif;
+         
+}
+.crsklp
+{
+    justify-content: center;
+    padding-right: 20ch;
+    font-size: 3ch;
+    font-family: sans-serif;
+         
+}
+.sklhd 
+{
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 3ch;
+}
+
+.prbtn
+{
+    display: inline-block;
+    padding: 1rem;
+    margin:1rem 0;
+    margin-right: 10px;
+    background-color: palevioletred;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.prbtn:hover{
+    background-color: darksalmon;
+}
+.crbtn
+{
+    display: inline-block;
+    padding: 1rem;
+    margin:1rem 0;
+    margin-right: 10px;
+    background-color: palevioletred;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.crbtn:hover{
+    background-color: darksalmon;
+}
+
+@media (max-width:1200px)
+{
+    html {
+        font-size:55%;
+    }
+}
+
+@media (max-width:991px){
+    .header{
+        padding:10 rem;
+    }
+
+    section{
+        padding:10rem 3%;
+    }
+
+    .section-box{
+        padding: 7rem;
+    }
+    .contact{
+        min-height:auto;
+    }
+    .footer{
+        padding:2rem;
+    }
+}
+
+@media (max-width:768px){
+    .image img{
+        width:90vw;
+        margin-top:4rem;
+    }
+
+    .section-box{
+        flex-direction: column;
+
+    }
+
+    .section-box h2{
+        margin-bottom: 3rem;
+    }
+    
+    .contact{
+        flex-direction:column;
+    }
+
+    .contact{
+        margin-bottom: 3rem;
+    }
+}
