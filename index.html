@@ -2,40 +2,110 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-   
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./styles.css">
-    <title>To Do List</title>
+    <title>Sejal Mhatre- Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
     <header>
-        <h1>To Do List</h1>
+        <h1 class ="my-name">Sejal Mhatre</h1>
+        <nav class="navbar">
+            
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            
+        </nav>
     </header>
-    <form action="">
-        <input type="text" class="todo-input">
-        <button class="todo-button" type="submit">
-        <i class="fas fa-plus-circle fa-lg"></i>
-        </button>
-        <div class ="select">
-            <select name="todos" class="filter-todo">
-            <option value="all">All</option>
-            <option value="pending">Pending</option>
-            <option value="done">Done</option>
-        </select>
-        </div>
-    </form>
+    <main>
+       
+            <div class="image">
+                
+                <img src="/home/guest/Downloads/profile.jpeg" alt="profile" class="roundimg"> 
+                <p class="intro">Hello,I'm <span class="sejal">Sejal Mhatre</span><br />And I'm a </span><span class="wd">Web Developer</span></p> 
+                
+                
+            </div>
+                
+            <section id="about" class ="section-box">
+            <div class ="about-content">
+                <h2 class= "heading"> About Me</span></h2>
+              
+            
+            <p class= "my-info">Hello, I'm Sejal Mhatre, I'm a diploma holder in computer engineering and currently studying BE at MGMCET.
+                I'am a passionate web developer with a keen eye for crafting engaging online experiences. 
+                I thrive on turning ideas into reality through the power of code.  I'm dedicated to creating intuitive and dynamic websites that leave a lasting impression.
 
-  <div class="todo-container">
-    <ul class="todo-list"></ul>
-  </div>
-  <script src="./script.js"></script>
-    
+                As a skilled web developer, I specialize in front-end and back-end development, proficient in languages such as HTML, CSS, JavaScript, and frameworks like React and Node.js.
+                 I enjoy tackling challenges head-on and am constantly seeking new ways to innovate and push the boundaries of what's possible in the digital realm.
+                
+             I'm excited to collaborate, learn, and grow in the ever-evolving world of web development.
+                
+                Let's bring your ideas to life together!</p>
+                <a href="#" class="about"></a>
+                </div>
+        </section>
+        <section id="projects" class="section-box">
+            <h2 class="heading">Projects</h2>
+            <p class=" proj">Here you can see my projects:</p>
+        
+            <ul class="ul">
+                <li><a href="https://github.com/sejalmhatre/ems.git" class="prbtn">Employee Management System</a></li>
+                <li><a href="https://github.com/sejalmhatre/SIgn-Language-Detection.git" class="prbtn">Sign Language Detection</a></li>
+                <li><a href="https://github.com/sejalmhatre/Age-and-Gender-Detection.git" class="prbtn">Age and Gender Detection</a></li>
+               
+                <!-- Add more project links as needed -->
+            </ul>
+        </section>
+        <section id="skills" class="section-box">
+            <h2 class="heading">Skills</h2>
+            <h3 class="sklhd">1.Technical Skills:</h3><br>
+            <p class ="techsklp"><span>-Programming Languages: JavaScript, Python, Java, etc.</span><br  />
+                <span>-Technologies: HTML, CSS, React.js, etc.</span> <br  />
+                <span>-Databases:  MySQL,Oracle.</span><br  />
+                <span>-Version Control: Git, GitHub</span><br  /></p>
+
+                <h3 class="sklhd">2.Soft Skills:</h3><br>
+            <p class ="softsklp"><span>-Problem-solving </span><br  />
+                <span>-Communication skills</span> <br  />
+                <span>-Time Management</span><br  />
+                <span>-Ability to learn new technologies</span><br  /></p>
+
+                <h3 class="sklhd">3.Certifications and Courses:</h3><br>
+            <p class ="crsklp">
+                
+                <ul class="ul">
+                    <li><a href="https://verify.letsupgrade.in/certificate/LUDSA0421A019" class="crbtn">Data Structures and Algorithms</a></li>
+                    <li><a href="https://verify.letsupgrade.in/certificate/LUPY0421A082" class="crbtn">Python Programmming</a></li>
+                   
+                   
+                </ul>
+            </p>
+        </section>
+        <section id="contact" class="contact">
+            <h2 class="contact-me">Contact Me </h2>
+            <form action="#">
+                <div class ="input-box">
+                    <input type ="text" placeholder="Full Name">
+                    <input type ="email" placeholder="email">
+                    </div>
+                    <div class="input-box">
+                        <input type ="number" placeholder="Phone number">
+                        <input type ="text" placeholder="Subject">
+                    </div>
+
+            <textarea name="" id="" cols="30" rows ="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+            </form>
+
+           
+        </section>
+
+    </main>
+    <footer>
+        <p>&copy; 2024 Sejal Mhatre</p>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
