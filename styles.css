@@ -26,7 +26,7 @@ body {
     overflow: hidden; 
     border-style:inherit;
     margin-bottom: 30ch;
-    margin-top: 7ch;
+    margin-top: 10ch;
     border-style: ridge;
    border-color: palevioletred;
   }
@@ -103,6 +103,7 @@ footer {
     padding: 10px 0;
     font-size: 3ch;
     font-family: 'Times New Roman', Times, serif;
+    margin-top: 1ch;
 }
 
 .heading{
@@ -136,7 +137,7 @@ footer {
 
 .contact h2{
     
-    margin-top: 3rem;
+    margin-top: 5rem;
     margin-bottom: 1rem;
     font-size:5ch;
 }
@@ -290,8 +291,9 @@ footer {
 }
 
 .prbtn:hover{
-    background-color: darksalmon;
+    background-color: lightcoral;
 }
+
 .crbtn
 {
     display: inline-block;
@@ -306,8 +308,67 @@ footer {
 }
 
 .crbtn:hover{
-    background-color: darksalmon;
+    background-color: lightcoral;
 }
+
+.download-button {
+.intro {
+    position: relative; /* Set position relative to establish a containing block */
+}
+
+
+
+
+
+
+.intro {
+    position: relative; /* Set position relative to establish a containing block */
+}
+
+
+}
+
+
+
+.download-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: palevioletred;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    font-size: 0.6ch;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.download-button:hover {
+    background-color: lightcoral;
+}
+
+
+.home
+{
+ padding-left: 1ch;
+}
+.logo-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-button {
+    margin: 0 10px; /* Adjust margin between buttons */
+}
+
+.logo-button img {
+    width: 40px; /* Set the width of the logos */
+    height: auto; /* Allow the height to adjust automatically to maintain aspect ratio */
+}
+
+
+
+
 
 @media (max-width:1200px)
 {
@@ -359,3 +420,5 @@ footer {
         margin-bottom: 3rem;
     }
 }
+
+
